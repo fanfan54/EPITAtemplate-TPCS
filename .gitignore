@@ -1,0 +1,11 @@
+# .gitignore for C# TP's
+# Author: fanfan54
+# Ver. 1.1
+
+.idea/
+.vs/
+
+*.DotSettings
+
+workdir/**/**/bin
+workdir/**/**/obj
