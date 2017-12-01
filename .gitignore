@@ -1,15 +1,19 @@
 # .gitignore for C# TP's
 # Author: fanfan54
-# Ver. 1.1
+# Ver. 1.4
 
-.idea/
-.vs/
+# Visual Studio and JetBrains Rider configs
+**/.idea/
+**/.vs/
+**/*.DotSettings
 
-*.DotSettings
-
+# Compiled files
 workdir/**/**/bin
 workdir/**/**/obj
 
-*.DS_Store
+# macOS Finder temp files
+**/*.DS_Store
 **/__MACOSX/
 
+# Windows Explorer temp files
+**/Thumbs.db
