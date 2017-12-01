@@ -9,3 +9,7 @@
 
 workdir/**/**/bin
 workdir/**/**/obj
+
+*.DS_Store
+**/__MACOSX/
+
