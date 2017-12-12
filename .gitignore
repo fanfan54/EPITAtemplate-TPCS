@@ -1,11 +1,12 @@
 # .gitignore for C# TP's
 # Author: fanfan54
-# Ver. 1.4
+# Ver. 1.5
 
 # Visual Studio and JetBrains Rider configs
 **/.idea/
 **/.vs/
 **/*.DotSettings
+**/*.csproj.user
 
 # Compiled files
 workdir/**/**/bin
