@@ -1,6 +1,6 @@
 # .gitignore for C# TP's
 # Author: fanfan54
-# Ver. 1.5
+# Ver. 1.6
 
 # Visual Studio and JetBrains Rider configs
 **/.idea/
@@ -9,8 +9,11 @@
 **/*.csproj.user
 
 # Compiled files
-workdir/**/**/bin
-workdir/**/**/obj
+workdir/**/bin/
+workdir/**/obj/
+
+# Tests for the program
+workdir/**/tests/
 
 # macOS Finder temp files
 **/*.DS_Store
