@@ -1,16 +1,21 @@
 # .gitignore for C# TP's
 # Author: fanfan54
-# Ver. 1.6
+# Ver. 1.7
 
-# Visual Studio and JetBrains Rider configs
+# IDE's configs
 **/.idea/
 **/.vs/
 **/*.DotSettings
 **/*.csproj.user
+**/*.userprefs
 
 # Compiled files
 workdir/**/bin/
 workdir/**/obj/
+
+# Auto-regenerated libraries and packages
+**/packages/
+**/packages.config
 
 # Tests for the program
 workdir/**/tests/
