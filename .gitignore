@@ -1,6 +1,6 @@
 # .gitignore for C# TP's
 # Author: fanfan54
-# Ver. 1.7
+# Ver. 1.7.1
 
 # IDE's configs
 **/.idea/
@@ -13,9 +13,9 @@
 workdir/**/bin/
 workdir/**/obj/
 
-# Auto-regenerated libraries and packages
-**/packages/
-**/packages.config
+# Auto-regenerated libraries and packages (finally we keep them)
+# **/packages/
+# **/packages.config
 
 # Tests for the program
 workdir/**/tests/
