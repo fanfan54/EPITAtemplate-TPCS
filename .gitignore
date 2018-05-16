@@ -1,11 +1,12 @@
 # .gitignore for C# TP's
 # Author: fanfan54
-# Ver. 1.7.1
+# Ver. 1.7.2
 
 # IDE's configs
 **/.idea/
 **/.vs/
 **/*.DotSettings
+**/*.DotSettings.user
 **/*.csproj.user
 **/*.userprefs
 
